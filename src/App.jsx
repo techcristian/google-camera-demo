@@ -1,15 +1,16 @@
-import CameraCapture from "./CameraCapture";
+import CameraSwitcher from './components/CameraSwitcher';
 
 function App() {
   return (
     <div>
-      <h1>Google Login + Cámara</h1>
-      <CameraCapture />
+      <h1>Prueba de Cámara</h1>
+      <CameraSwitcher />
     </div>
   );
 }
 
 export default App;
+
 /*import React from 'react'
 import { GoogleLogin, googleLogout, useGoogleLogin } from '@react-oauth/google'
 
